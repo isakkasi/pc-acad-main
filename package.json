@@ -1,0 +1,26 @@
+{
+  "name": "pc-acad-main",
+  "version": "1.0.0",
+  "description": "The main web site of Plane Care Academy",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/isakkasi/pc-acad-main.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/isakkasi/pc-acad-main/issues"
+  },
+  "homepage": "https://github.com/isakkasi/pc-acad-main#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}

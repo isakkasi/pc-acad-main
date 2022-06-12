@@ -4,7 +4,7 @@
   "description": "The main web site of Plane Care Academy",
   "main": "index.js",
   "scripts": {
-    "start-nodemon": "nodemon ./src/index.js"
+    "start": "nodemon ./src/index.js"
   },
   "repository": {
     "type": "git",
@@ -18,7 +18,8 @@
   },
   "homepage": "https://github.com/isakkasi/pc-acad-main#readme",
   "dependencies": {
-    "express": "^4.18.1"
+    "express": "^4.18.1",
+    "express-handlebars": "^6.0.6"
   },
   "devDependencies": {
     "nodemon": "^2.0.16"

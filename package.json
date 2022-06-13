@@ -19,7 +19,8 @@
   "homepage": "https://github.com/isakkasi/pc-acad-main#readme",
   "dependencies": {
     "express": "^4.18.1",
-    "express-handlebars": "^6.0.6"
+    "express-handlebars": "^6.0.6",
+    "nodemailer": "^6.7.5"
   },
   "devDependencies": {
     "nodemon": "^2.0.16"

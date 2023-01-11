@@ -13,7 +13,7 @@ transporter.verify(function (error, success) {
 
 let mailContent = {
   from: 'no-replay@pc-acad.com',
-  to: 'a.georgiev@plane-care.com',
+  to: 'a.georgiev@pc-acad.com',
   subject: 'Message from the website',
   html: '<p>No content sent</p>',
 };

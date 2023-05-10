@@ -27,8 +27,8 @@ exports.sendMail = message => {
     <h2>Name: ${message.name}</h2>
     <p>E-mail: ${message.email}</p>
     <hr>
-    <p>Message: ${message.message}</p>
-    <p>Like: ${message.like == 'on' ? 'Yes' : 'No'}</p>`;
+    <p>Message: ${message.message}</p>`;
+    // <p>Like: ${message.like == 'on' ? 'Yes' : 'No'}</p>`;
   }
 
   transporter
